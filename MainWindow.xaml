@@ -1,0 +1,21 @@
+﻿<Window x:Class="Skrauch_9_0101.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Skrauch_9_0101"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="133.135" Width="427.219">
+    <Grid>
+        <TextBox x:Name="snils" HorizontalAlignment="Left" Height="23" Margin="197,10,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="172" TextChanged="snils_TextChanged_1"/>
+        <TextBox x:Name="seria" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="172" Margin="197,38,0,0" TextChanged="seria_TextChanged"/>
+        <Label x:Name="label" Content="Введите снилс:" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Height="28" Width="157"/>
+        <Label x:Name="label1" Content="Серия и номер паспорта:" HorizontalAlignment="Left" Margin="10,38,0,0" VerticalAlignment="Top" Height="28" Width="157"/>
+        <Label x:Name="label2" Content="Номер телефона:" HorizontalAlignment="Left" Margin="10,66,0,0" VerticalAlignment="Top" Height="27" Width="157"/>
+        <TextBox x:Name="tel" HorizontalAlignment="Left" Height="23" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="172" Margin="197,66,0,0" TextChanged="tel_TextChanged"/>
+        <ProgressBar x:Name="snilscheck" HorizontalAlignment="Left" Height="23" Margin="374,10,0,0" VerticalAlignment="Top" Width="23"/>
+        <ProgressBar x:Name="seriacheck" HorizontalAlignment="Left" Height="23" Margin="374,38,0,0" VerticalAlignment="Top" Width="23"/>
+        <ProgressBar x:Name="telcheck" HorizontalAlignment="Left" Height="23" Margin="374,66,0,0" VerticalAlignment="Top" Width="23"/>
+
+    </Grid>
+</Window>
